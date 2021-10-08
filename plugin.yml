@@ -2,7 +2,7 @@ name: Wardrobe
 version: 1.0.3
 author: LucFr
 main: wr.java.Wardrobe
-api-version: 1.13
+api-version: 1.17
 commands:  
   wardrobe:
     

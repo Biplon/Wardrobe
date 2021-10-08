@@ -129,7 +129,7 @@ public class WardrobeListener implements Listener
                 {
                     ButtonCheck = PresentButton.getType().toString();
                 }
-                if (ButtonCheck.contains("LIME_DYE") || ButtonCheck.contains("LIME DYE"))
+                if (ButtonCheck.contains("RED_DYE") || ButtonCheck.contains("RED DYE"))
                 {
                     p.sendMessage(ChatColor.RED + ChatColor.translateAlternateColorCodes('&', Wardrobe.ConfigData.getConfig().getString("Wardrobe_Message.Modify_Armor_Denied")));
                     String sound = "";
@@ -174,7 +174,7 @@ public class WardrobeListener implements Listener
                 {
                     ButtonCheck = PresentButton.getType().toString();
                 }
-                if (ButtonCheck.contains("LIME_DYE") || ButtonCheck.contains("LIME DYE"))
+                if (ButtonCheck.contains("RED_DYE") || ButtonCheck.contains("RED DYE"))
                 {
                     p.sendMessage(ChatColor.RED + ChatColor.translateAlternateColorCodes('&', Wardrobe.ConfigData.getConfig().getString("Wardrobe_Message.Modify_Armor_Denied")));
                     String sound = "";

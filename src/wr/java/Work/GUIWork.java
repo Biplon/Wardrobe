@@ -1,5 +1,6 @@
 package wr.java.Work;
 
+import org.bukkit.configuration.file.FileConfiguration;
 import wr.java.GUI.WardrobeGUI;
 import wr.java.Wardrobe;
 import org.bukkit.Bukkit;
