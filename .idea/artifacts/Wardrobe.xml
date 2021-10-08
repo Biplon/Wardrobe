@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Wardrobe">
+    <output-path>$PROJECT_DIR$/out/artifacts/Wardrobe</output-path>
+    <root id="archive" name="Wardrobe.jar">
+      <element id="module-output" name="wardrobe" />
+      <element id="file-copy" path="$PROJECT_DIR$/config.yml" />
+      <element id="file-copy" path="$PROJECT_DIR$/plugin.yml" />
+      <element id="directory" name="data">
+        <element id="file-copy" path="$PROJECT_DIR$/data/Page 1.yml" />
+        <element id="file-copy" path="$PROJECT_DIR$/data/Page 2.yml" />
+      </element>
+    </root>
+  </artifact>
+</component>
